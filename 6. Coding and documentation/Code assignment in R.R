@@ -18,15 +18,19 @@ task_data = read.csv("Data\\onet_tasks.csv")
 # 1-digit ISCO occupation categories. (Check here for details: https://www.ilo.org/public/english/bureau/stat/isco/isco08/)
 library(readxl)                     
 
-isco1 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO1")
-isco2 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO2")
-isco3 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO3")
-isco4 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO4")
-isco5 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO5")
-isco6 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO6")
-isco7 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO7")
-isco8 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO8")
-isco9 <- read_excel("Data\\Eurostat_employment_isco.xlsx", sheet="ISCO9")
+# Define the sheet names you want to read
+sheet_names <- paste("ISCO", 1:9, sep = "")
+
+# Use lapply to loop over the sheet names and read each one
+isco_list <- lapply(sheet_names, function(sheet) {
+  read_excel("Data/Eurostat_employment_isco.xlsx", sheet = sheet)
+})
+
+# Optional: Set names for easier access
+names(isco_list) <- sheet_names
+
+# Accessing the data frames
+# isco_list[[1]] or isco_list$ISCO1 for the first sheet, and so on
 
 # We will focus on three countries, but perhaps we could clean this code to allow it
 # to easily run for all the countries in the sample?
@@ -37,15 +41,21 @@ total_Spain = isco1$Spain + isco2$Spain + isco3$Spain + isco4$Spain + isco5$Spai
 total_Poland = isco1$Poland + isco2$Poland + isco3$Poland + isco4$Poland + isco5$Poland + isco6$Poland + isco7$Poland + isco8$Poland + isco9$Poland
 
 # Let's merge all these datasets. We'll need a column that stores the occupation categories:
-isco1$ISCO <- 1
-isco2$ISCO <- 2
-isco3$ISCO <- 3
-isco4$ISCO <- 4
-isco5$ISCO <- 5
-isco6$ISCO <- 6
-isco7$ISCO <- 7
-isco8$ISCO <- 8
-isco9$ISCO <- 9
+# Define the ISCO codes
+isco_codes <- 1:9
+
+# Use lapply to loop over the ISCO codes, read each sheet and add the ISCO code column
+isco_list <- lapply(isco_codes, function(code) {
+  df <- read_excel("Data/Eurostat_employment_isco.xlsx", sheet = paste("ISCO", code, sep = ""))
+  df$ISCO <- code
+  return(df)
+})
+
+# Optional: Set names for easier access
+names(isco_list) <- paste("ISCO", isco_codes, sep = "")
+
+# Now each element of isco_list has an additional column 'ISCO' with its respective code
+# Access the modified data frames with isco_list[[1]], isco_list$ISCO1, etc.
 
 # and this gives us one large file with employment in all occupations.
 all_data <- rbind(isco1, isco2, isco3, isco4, isco5, isco6, isco7, isco8, isco9)
