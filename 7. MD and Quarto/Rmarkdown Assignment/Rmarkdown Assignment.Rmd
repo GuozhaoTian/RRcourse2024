@@ -28,7 +28,7 @@ output: html_document
 
 ## A *Suits* statistics each season.
 
-```{r}
+```{r echo=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(dplyr)
@@ -38,7 +38,7 @@ library(stringr)
 ```
 
 #### Calculate statistics for each season
-```{r}
+```{r echo=FALSE, message=FALSE}
 ratings_data <- read_csv('Suits Rating.csv')
 ratings_data <- ratings_data[,-1]
 ratings_long <- pivot_longer(ratings_data, cols = starts_with("Season"), 
@@ -59,7 +59,7 @@ ratings_summary
 ```
 
 #### Generate a chart of ratings changes for each season
-```{r}
+```{r echo=FALSE,message=FALSE,warning=FALSE}
 ratings_long <- ratings_long %>%
   mutate(Episode = row_number())
 
