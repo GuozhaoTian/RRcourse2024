@@ -8,4 +8,190 @@ output: html_document
 # Short Description
 
 *Suits* is an American television drama series created by Aaron Korsh, which premiered on June 23, 2011, on the USA Network. It revolves around Mike Ross (Patrick J. Adams), who begins working as a law associate for Harvey Specter (Gabriel Macht), despite never attending law school. The show focuses on Harvey and Mike managing to close cases, while maintaining Mike's secret.
+![This is the Suits TV show logo](Suits_Logo.png)
+# Ratings
+## *Suits*: U.S. viewers per episode (millions)
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{|lc|cccccccccccccccc|}
+\hline
+\multicolumn{2}{|l|}{} &
+  \multicolumn{16}{c|}{Episode number} \\ \cline{3-18} 
+\multicolumn{2}{|l|}{\multirow{-2}{*}{Season}} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{2} &
+  \multicolumn{1}{c|}{3} &
+  \multicolumn{1}{c|}{4} &
+  \multicolumn{1}{c|}{5} &
+  \multicolumn{1}{c|}{6} &
+  \multicolumn{1}{c|}{7} &
+  \multicolumn{1}{c|}{8} &
+  \multicolumn{1}{c|}{9} &
+  \multicolumn{1}{c|}{10} &
+  \multicolumn{1}{c|}{11} &
+  \multicolumn{1}{c|}{12} &
+  \multicolumn{1}{c|}{13} &
+  \multicolumn{1}{c|}{14} &
+  \multicolumn{1}{c|}{15} &
+  16 \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{68CBD0}} &
+  1 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.64}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.89}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.53}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.38}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.38}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.44}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.03}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.96}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.45}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.82}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.96}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.47}} &
+  \multicolumn{4}{c|}{\cellcolor[HTML]{EFEFEF}{\color[HTML]{202122} –}} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{9B9B9B}} &
+  2 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.47}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.80}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.88}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.70}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.72}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.89}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.41}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.42}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.00}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 4.48}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.57}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.75}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.36}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.07}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.90}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.20} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{FE0000}} &
+  3 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.93}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.89}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.48}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.99}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.79}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.76}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.79}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.52}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.95}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 3.16}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.28}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.28}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.35}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.53}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.50}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.40} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{000000}} &
+  4 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.50}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.65}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.76}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.42}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.33}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.70}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.81}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.59}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.59}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.76}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.87}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.67}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.46}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.70}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.80}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.55} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{00009B}} &
+  5 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.13}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.27}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.16}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.38}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.10}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.16}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.08}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.31}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.30}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 2.34}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.74}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.51}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.71}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.58}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.73}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.71} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{ECF4FF}} &
+  6 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.85}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.65}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.78}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.81}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.51}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.68}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.83}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.88}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.87}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.92}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.37}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.53}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.28}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.21}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.25}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.13} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{9A0000}} &
+  7 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.40}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.36}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.41}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.41}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.29}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.47}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.35}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.51}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.64}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.68}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.18}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.06}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.95}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.99}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.09}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.07} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{010066}} &
+  8 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.27}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.18}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.16}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.09}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.15}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.22}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.13}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.30}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.07}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.08}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.82}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.91}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.77}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.78}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.69}} &
+  \cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.74} \\ \hline
+\multicolumn{1}{|l|}{\cellcolor[HTML]{CD9934}} &
+  9 &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.04}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.04}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.94}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.00}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.96}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.05}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 1.07}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.97}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.96}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{F8F9FA}{\color[HTML]{202122} 0.86}} &
+  \multicolumn{6}{c|}{\cellcolor[HTML]{EFEFEF}–} \\ \hline
+\end{tabular}
+\end{table}
 
